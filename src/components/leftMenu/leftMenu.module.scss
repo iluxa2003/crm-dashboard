@@ -1,0 +1,15 @@
+.leftMenu {
+    background-color: #fff;
+    max-width: 306px;
+}
+
+.leftMenu_list{
+    padding: 0;
+    margin: 0 28px;
+    list-style: none;
+    color: #9197B3;
+    :hover{
+        color: #fff;
+        background: #5932EA;
+    }
+}
