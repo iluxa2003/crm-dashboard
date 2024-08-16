@@ -1,15 +1,46 @@
-.leftMenu {
-    background-color: #fff;
-    max-width: 306px;
+.root {
+  background-color: #fff;
+  max-width: 306px;
+
+  min-height: 100vh;
+  height: 100%;
+  border-right: 1px solid #000;
 }
 
-.leftMenu_list{
-    padding: 0;
-    margin: 0 28px;
-    list-style: none;
-    color: #9197B3;
-    :hover{
-        color: #fff;
-        background: #5932EA;
-    }
+.root_list {
+  padding: 0;
+  margin: 0 28px;
+  list-style: none;
+  color: #9197b3;
+  :hover {
+    color: #fff;
+    background: #5932ea;
+  }
+}
+.bottom_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.bottom_text_wrap {
+  width: 155px;
+  height: 42px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.m_text {
+  font-family: Poppins;
+  font-weight: medium;
+  line-height: auto;
+  letter-spacing: 1%;
+  font-size: 14px;
+  color: #000;
+}
+
+.s_text {
+  font-family: Poppins regular;
+  font-size: 12px;
+  color: #757575;
 }

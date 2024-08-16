@@ -4,9 +4,9 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <main className='container'>
-        <LeftMenu/>
+    <div>
+      <main className="container">
+        <LeftMenu />
       </main>
     </div>
   );

@@ -1,0 +1,11 @@
+.root {
+  padding: 10px 11px;
+  display: flex;
+  justify-content: space-between;
+  color: #9197b3;
+  border-radius: 7px;
+  :hover {
+    color: #fff;
+    background: #5932ea;
+  }
+}

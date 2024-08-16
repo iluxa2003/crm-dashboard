@@ -1,24 +1,42 @@
-import React from "react";
-import style from "./leftMenu.module.scss"
-import evano from "../../images/Evano.svg"
+import React from 'react';
+import style from './leftMenu.module.scss';
+import evano from '../../images/Evano.svg';
+import key from '../../images/key-square.svg';
+import square from '../../images/3d-square.svg';
+import user from '../../images/user-square.svg';
+import money from '../../images/wallet-money.svg';
+import discount from '../../images/discount.svg';
+import question from '../../images/message-question.svg';
+import logo from '../../images/setting.svg';
+import ListComponent from './ListComponent';
 
-const LeftMenu = () =>{
-    return(<div className={style.leftMenu}>
-        <h1>Dahboard</h1>
-        <ul className={style.leftMenu_list}>
-            <li>Dashboard</li>
-            <li>Product</li>
-            <li>Customers</li>
-            <li>Income</li>
-            <li>Promote</li>
-            <li>Help </li>
-        </ul>
-        <div>
-            <div><img src={evano} alt=""/></div>
-            <div>Evano</div>
-            <div>Project Menager</div>
+const LeftMenu = () => {
+  return (
+    <div className={style.root}>
+      <h1>
+        <img src={logo} alt="" />
+        Dashboard
+        <span className={style.s_text}>v.01</span>
+      </h1>
+      <ul className={style.root_list}>
+        <ListComponent image={key} text={'Dashboard'} />
+        <ListComponent image={square} text={'Product'} />
+        <ListComponent image={user} text={'Customers'} />
+        <ListComponent image={money} text={'Income'} />
+        <ListComponent image={discount} text={'Promote'} />
+        <ListComponent image={question} text={'Help'} />
+      </ul>
+      <div className={style.bottom_text_wrap}>
+        <div className="">
+          <img src={evano} alt="" />
         </div>
-    </div>);
+        <div className={style.bottom_text}>
+          <div className={style.m_text}>Evano</div>
+          <div className={style.s_text}>Project Manager</div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default LeftMenu;
