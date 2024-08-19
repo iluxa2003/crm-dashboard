@@ -1,0 +1,24 @@
+.active {
+  width: 84px;
+  height: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #00b087;
+  background: rgba(22, 192, 152, 38%);
+  border: 1px solid #008767;
+  border-radius: 6px;
+}
+
+.inactive {
+  width: 84px;
+  height: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #df0404;
+  background: rgb(255, 197, 197);
+  border: 1px solid #df0404;
+  border-radius: 6px;
+}

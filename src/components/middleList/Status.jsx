@@ -1,8 +1,12 @@
 import React from 'react';
-import style from './MiddleList.module.scss';
+import style from './Status.module.scss';
 
 const Status = ({ status = true }) => {
-  return <div className={style.root}></div>;
+  if (status) {
+    return <div className={style.active}>Active</div>;
+  } else {
+    return <div className={style.inactive}>Inactive</div>;
+  }
 };
 
 export default Status;
