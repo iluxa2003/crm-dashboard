@@ -1,10 +1,22 @@
 .root {
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: space-around;
+
   background-color: #fff;
   max-width: 306px;
 
   min-height: 100vh;
   height: 100%;
   border-right: 1px solid #000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-family: Poppins;
+  font-size: 26px;
 }
 
 .root_list {

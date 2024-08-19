@@ -13,10 +13,11 @@ import ListComponent from './ListComponent';
 const LeftMenu = () => {
   return (
     <div className={style.root}>
-      <h1>
+      <h1 className={style.logo}>
         <img src={logo} alt="" />
-        Dashboard
-        <span className={style.s_text}>v.01</span>
+        <span>
+          Dashboard<span className={style.s_text}>v.01</span>
+        </span>
       </h1>
       <ul className={style.root_list}>
         <ListComponent image={key} text={'Dashboard'} />
