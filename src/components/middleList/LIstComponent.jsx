@@ -11,14 +11,14 @@ const ListComponent = ({
   status,
 }) => {
   return (
-    <div className={style.root}>
-      <span>{customerName}</span>
-      <span>{company}</span>
-      <span>{phone}</span>
-      <span>{email}</span>
-      <span>{country}</span>
-      <Status status={status} />
-    </div>
+    <tr className={style.root}>
+      <td>{customerName}</td>
+      <td>{company}</td>
+      <td>{phone}</td>
+      <td>{email}</td>
+      <td>{country}</td>
+      {status === 'default' ? <td>Status</td> : <Status status={status} />}
+    </tr>
   );
 };
 

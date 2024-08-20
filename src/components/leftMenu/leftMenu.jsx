@@ -13,20 +13,23 @@ import ListComponent from './ListComponent';
 const LeftMenu = () => {
   return (
     <div className={style.root}>
-      <h1 className={style.logo}>
-        <img src={logo} alt="" />
-        <span>
-          Dashboard<span className={style.s_text}>v.01</span>
-        </span>
-      </h1>
-      <ul className={style.root_list}>
-        <ListComponent image={key} text={'Dashboard'} />
-        <ListComponent image={square} text={'Product'} />
-        <ListComponent image={user} text={'Customers'} />
-        <ListComponent image={money} text={'Income'} />
-        <ListComponent image={discount} text={'Promote'} />
-        <ListComponent image={question} text={'Help'} />
-      </ul>
+      <div className={style.top_container}>
+        <h1 className={style.logo}>
+          <img src={logo} alt="" />
+          <span>
+            Dashboard<span className={style.s_text}>v.01</span>
+          </span>
+        </h1>
+        <ul className={style.root_list}>
+          <ListComponent image={key} text={'Dashboard'} />
+          <ListComponent image={square} text={'Product'} />
+          <ListComponent image={user} text={'Customers'} />
+          <ListComponent image={money} text={'Income'} />
+          <ListComponent image={discount} text={'Promote'} />
+          <ListComponent image={question} text={'Help'} />
+        </ul>
+      </div>
+
       <div className={style.bottom_text_wrap}>
         <div className="">
           <img src={evano} alt="" />

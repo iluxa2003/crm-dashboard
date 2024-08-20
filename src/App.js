@@ -1,14 +1,14 @@
 import React from 'react';
 import LeftMenu from './components/leftMenu/leftMenu';
 import './App.css';
-import MiddleList from './components/middleList/MiddleList';
+import MiddleWindow from './components/MiddleWindow/MiddleWindow';
 
 function App() {
   return (
     <div>
       <main className="container">
         <LeftMenu />
-        <MiddleList />
+        <MiddleWindow />
       </main>
     </div>
   );

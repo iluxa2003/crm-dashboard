@@ -1,11 +1,13 @@
 import React from 'react';
 import style from './Status.module.scss';
 
-const Status = ({ status = true }) => {
+const Status = ({ status }) => {
   if (status) {
-    return <div className={style.active}>Active</div>;
+    return <td className={style.active}>Active</td>;
+  } else if (!status) {
+    return <td className={style.inactive}>Inactive</td>;
   } else {
-    return <div className={style.inactive}>Inactive</div>;
+    return <td>Status</td>;
   }
 };
 
