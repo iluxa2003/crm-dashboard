@@ -4,11 +4,11 @@ import MiddleList from '../middleList/MiddleList';
 import Pagination from './Pagination';
 import MiddleHeader from './MiddleHeader';
 
-const MiddleWindow = () => {
+const MiddleWindow = ({ list = [] }) => {
   return (
     <div className={style.root}>
       <MiddleHeader />
-      <MiddleList />
+      <MiddleList list={list} />
       <Pagination />
     </div>
   );

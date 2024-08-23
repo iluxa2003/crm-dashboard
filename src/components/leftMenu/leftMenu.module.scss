@@ -1,7 +1,7 @@
 .root {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 
   background-color: #fff;
   width: 306px;
@@ -19,7 +19,7 @@
 .logo {
   display: flex;
   align-items: center;
-  margin: 0;
+  margin: 10px 0 20px 20px;
   font-family: Poppins;
   font-size: 26px;
   img {
@@ -46,6 +46,7 @@
 .bottom_text_wrap {
   width: 155px;
   height: 42px;
+  margin: 0 0 65px 20px;
   display: flex;
   justify-content: space-around;
 }

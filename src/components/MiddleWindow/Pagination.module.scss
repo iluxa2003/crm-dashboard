@@ -1,0 +1,33 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_text {
+  color: #b5b7c0;
+}
+
+.right_pages {
+  display: flex;
+  align-items: center;
+  .pagination_buttons:hover {
+    color: #fff;
+    background: #5932ea;
+  }
+}
+
+.pagination_buttons {
+  margin: 0 8px;
+  border: 0px;
+  border-radius: 3px;
+  background: #eeeeee;
+  padding: 8px;
+  font-size: 12px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.active {
+  color: #fff;
+  background: #5932ea;
+}

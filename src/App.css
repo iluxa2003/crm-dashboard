@@ -16,6 +16,15 @@ body{
     display: flex;
     justify-content: space-between;
     height: 100vh;
-    width: 1440px;
 }
 
+.middle_cotainer{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    margin: 0 auto;
+}
+
+.top_Username{
+    margin: 45px 0;
+}
