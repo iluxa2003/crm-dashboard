@@ -7,14 +7,14 @@ const MiddleList = ({ list = [] }) => {
     <div className={style.root}>
       <table className={style.root_table}>
         <thead>
-          <th className={style.root_tableHead}>
+          <tr className={style.root_tableHead}>
             <th>Customer Name</th>
             <th>Company</th>
             <th>Phone Number</th>
             <th>Email</th>
             <th>Country</th>
             <th>Status</th>
-          </th>
+          </tr>
         </thead>
         <tbody>
           {list.map((item) => {
