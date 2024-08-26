@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/crm-dashboard/static/css/main.fa21cfa8.css",
+    "main.js": "/crm-dashboard/static/js/main.ba7c4280.js",
+    "static/media/Evano.svg": "/crm-dashboard/static/media/Evano.ba8a3f9c82c25b41504afe878238a090.svg",
+    "static/media/discount.svg": "/crm-dashboard/static/media/discount.27afa49f33e468b908e1a52f796d1f9c.svg",
+    "static/media/wallet-money.svg": "/crm-dashboard/static/media/wallet-money.dc105d4a4aaf5c0cb1ae731f53d23e41.svg",
+    "static/media/3d-square.svg": "/crm-dashboard/static/media/3d-square.411f0d312e9c8c5745abfc50c8ab4661.svg",
+    "static/media/message-question.svg": "/crm-dashboard/static/media/message-question.01f78688d86158a0714006c10871c085.svg",
+    "static/media/user-square.svg": "/crm-dashboard/static/media/user-square.345b5e2001e5136c3a10157e1425edf2.svg",
+    "static/media/setting.svg": "/crm-dashboard/static/media/setting.b4921a6335932cb26f3f1384cb7f0488.svg",
+    "static/media/key-square.svg": "/crm-dashboard/static/media/key-square.fffa1c623833ec3e7972f466d1f69d2c.svg",
+    "index.html": "/crm-dashboard/index.html",
+    "static/media/search.svg": "/crm-dashboard/static/media/search.d555a35800fec6f7c1928aef95546ef7.svg",
+    "static/media/chevron-right.svg": "/crm-dashboard/static/media/chevron-right.e641806d6c195aa66a5b1125a3878d68.svg",
+    "main.fa21cfa8.css.map": "/crm-dashboard/static/css/main.fa21cfa8.css.map",
+    "main.ba7c4280.js.map": "/crm-dashboard/static/js/main.ba7c4280.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa21cfa8.css",
+    "static/js/main.ba7c4280.js"
+  ]
+}
