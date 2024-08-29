@@ -22,3 +22,16 @@
   border: 1px solid #df0404;
   border-radius: 6px;
 }
+
+@media (max-width: 1200px) {
+  .inactive {
+    width: 60px;
+    height: 21px;
+    font-size: smaller;
+  }
+  .active {
+    width: 60px;
+    height: 21px;
+    font-size: smaller;
+  }
+}

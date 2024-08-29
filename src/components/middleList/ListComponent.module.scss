@@ -11,3 +11,13 @@
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
 }
+@media (max-width: 1200px) {
+  .root {
+    width: 600px;
+    height: 29px;
+    padding: 15px 0;
+    border-bottom: 1px solid #d1d1d1;
+
+    font-size: smaller;
+  }
+}

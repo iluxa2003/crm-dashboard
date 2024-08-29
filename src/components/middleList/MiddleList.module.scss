@@ -28,3 +28,10 @@
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
 }
+
+@media (max-width: 1200px) {
+  .root_tableHead {
+    width: 600px;
+    font-size: smaller;
+  }
+}
